@@ -2334,6 +2334,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.qteeconnector@1.0-service \
     vendor.qti.hardware.soter@1.0-service \
     vendor.qti.hardware.tui_comm@1.0-service-qti \
+    libutils \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
