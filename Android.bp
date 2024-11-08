@@ -36226,20 +36226,3 @@ cc_prebuilt_binary {
 	prefer: true,
 	product_specific: true,
 }
-
-cc_prebuilt_library_shared {
-	name: "libutils",
-	owner: "asus",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libutils.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	product_specific: true,
-}
